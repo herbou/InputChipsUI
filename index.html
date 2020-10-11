@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UI Tags input</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<div id="ui-chips">	
+		
+		<div id="toolbar">
+			<button title="Delete chips" class="btn" id="toolbar-btn-delete"></button>
+			<button title="Copy to clipboard" class="btn" id="toolbar-btn-copy"></button>
+			<span id="chips-counter">0</span>
+		</div>
+
+		<div id="chips-container"></div>
+
+		<div class="input-container">
+			<input id="chips-hidden-input" type="hidden" name="chips">
+			<input id="chips-input" type="text" placeholder="Tags (comma separated.)" />
+		</div>
+
+	</div>
+
+	<script src="js/chips.js"></script>
+</body>
+</html>
